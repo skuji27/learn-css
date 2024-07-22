@@ -5,6 +5,9 @@
 
 	<title>Fonts</title>
 
+	<!-- This is a web font -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -45,16 +48,26 @@
 
 		-----------------------------
 
-		How to Connect a Font:
+		How to Connect a Third-Party Font:
+
+		1. @font-face rule
+
+		Format:
 
 		@font-face {
 			font-family: "font family name";
 			src: url(path to font) format("name"),
 				 url(path to font) format("name");
 		}
+
+		2. Web Fonts
+
+		Applied in the head section.
 		
 	 -->
 
-	 <h1>Hello world</h1>
+	 <h1>Font Face Rule</h1>
+
+	 <h2>Web Font</h2>
 </body>
 </html>

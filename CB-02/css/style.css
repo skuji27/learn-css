@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Chantelli Antiqua';
+	src: url(../fonts/Chantelli_Antiqua-webfont.woff) format('woff'),
+	src: url(../fonts/Chantelli_Antiqua-webfont.ttf) format('ttf');
+}
+
+h1 {
+	font-size: 24px;
+	font-family: 'Chantelli Antiqua' sans-serif; 
+	/*	The sans-serif above is an example of a fallback font */
+}
+
+h2 {
+	font-size: 24px;
+	font-family: 'Montserrat' sans-serif;
+
+}
