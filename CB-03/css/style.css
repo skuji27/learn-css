@@ -7,3 +7,14 @@ p {
 
 	color: #FF0000;
 }
+
+ul {
+	list-style-type: none;
+	list-style-image: url(../img/world.png);
+	list-style-position: inside;
+}
+
+ol {
+	list-style-type: upper-roman;
+	list-style-image: url(../img/world.png);
+}
