@@ -1,7 +1,15 @@
-p {
-	color: orange;
+div {
+	background-color: orange;
+
+	width: 50%;
+
+	height: 400px;
+
+	text-align: center;
+
+	color: white;
 }
 
-span {
-	color: yellow;
+div.blue-block {
+	background-color: blue;
 }
