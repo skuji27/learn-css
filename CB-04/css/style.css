@@ -1,8 +1,7 @@
 p {
-	font-size: 20px;
+	color: orange;
 }
 
-#main-heading {
-	color: red;
+span {
+	color: yellow;
 }
-
